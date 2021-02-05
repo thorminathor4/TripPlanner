@@ -5,7 +5,6 @@ public class Trip {
     private static ArrayList<Short> tripIDs=new ArrayList<Short>();
     private String location;
     private short tripID;
-    String git;
     Time startTime,endTime;
     public Trip(String location,Time startTime,Time endTime){
         this.location=location;
