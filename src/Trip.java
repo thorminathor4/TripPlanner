@@ -6,7 +6,6 @@ public class Trip {
     private String location;
     private short tripID;
     Time startTime,endTime;
-    String mad;
     public Trip(String location,Time startTime,Time endTime){
         this.location=location;
         this.startTime=startTime;
